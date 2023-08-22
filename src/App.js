@@ -6,12 +6,12 @@ function App() {
     <div className="App">
       <div className="Container">
         <header className="App-header">
-          <p>hlo</p>
+          <p>header</p>
         </header>
 
         <Form />
         <footer>
-          <p>fotter</p>
+          <p>github</p>
         </footer>
       </div>{" "}
     </div>

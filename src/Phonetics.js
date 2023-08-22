@@ -1,11 +1,30 @@
-import React from "react";
+import React, { useState } from "react";
+import ReactAudioPlayer from "react-audio-player";
 
 export default function Phonetics(props) {
+  const [isPlaying, setIsPlaying] = useState(false);
+
+  const handleAudioPlay = () => {
+    setIsPlaying(true);
+  };
+
+  const handleAudioPause = () => {
+    setIsPlaying(false);
+  };
+  if (!props.phonetic.audio) {
+    return null;
+  }
+
+  console.log(props.phonetic);
   return (
     <div className="Phonetic">
-      <a href={props.phonetic.audio} target="_blank" rel="noreferrer">
-        Listen
-      </a>
+      <ReactAudioPlayer
+        src={props.phonetic.audio}
+        autoPlay={isPlaying}
+        controls
+        onPlay={handleAudioPlay}
+        onPause={handleAudioPause}
+      />
       <br />
       {props.phonetic.text}
     </div>

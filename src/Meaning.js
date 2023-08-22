@@ -2,7 +2,6 @@ import React from "react";
 import Synomyms from "./Synonyms";
 
 export default function Meaning(props) {
-  console.log(props.meaning);
   return (
     <div className="meaning">
       <h3> {props.meaning.partOfspeech} </h3>

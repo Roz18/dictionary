@@ -1,3 +1,17 @@
-ul {
-  background-color: rgb(130, 130, 178);
+.meaning {
+  background-image: url("img/paper1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+  text-align: start;
+  max-width: 85%;
+  padding-bottom: 10px;
+}
+p {
+  padding-left: 15px;
+  margin: 5px;
+}
+h3 {
+  padding-top: 10px;
+  margin: 15px;
 }

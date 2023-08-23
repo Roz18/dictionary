@@ -1,0 +1,10 @@
+.WordPhone {
+  max-width: 80%;
+  background-color: aquamarine;
+  margin: auto;
+  text-align: start;
+}
+h2 {
+  font-size: 30px;
+  font-family: "EB Garamond", serif;
+}

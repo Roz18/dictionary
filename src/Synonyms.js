@@ -1,14 +1,14 @@
 import React from "react";
+import "./meaning.css";
 
-export default function Synomyms(props) {
-  if (props.Synomyms) {
+export default function Synonyms(props) {
+  if (props.synonyms) {
     return (
-      <div className="Synomyms">
-        {" "}
-        {props.synonyms.map(function (synomyms, index) {
-          return <span kye={index}>{synomyms}</span>;
+      <ul className="Synonyms">
+        {props.synonyms.map(function (synonym, index) {
+          return <li key={index}>{synonym}</li>;
         })}
-      </div>
+      </ul>
     );
   } else {
     return null;

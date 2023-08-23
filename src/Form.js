@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import Results from "./Result";
+import "./form.css";
 
 export default function Form() {
   let [Kyeword, setKyeword] = useState("");

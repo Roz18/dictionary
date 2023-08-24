@@ -16,7 +16,11 @@ function App() {
           <p>
             {" "}
             Coded by Rusanne Visagie{" "}
-            <a href="" target="_blank" rel="">
+            <a
+              href="https://github.com/Roz18/dictionary"
+              target="_blank"
+              rel="noreferrer"
+            >
               Open-sourced on Github
             </a>
           </p>

@@ -1,8 +1,6 @@
 .WordPhone {
   max-width: 85%;
-  background-image: url(img/bookBB.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+
   margin: auto;
   text-align: center;
   color: rgb(246, 241, 240);

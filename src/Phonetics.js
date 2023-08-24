@@ -15,7 +15,6 @@ export default function Phonetics(props) {
     return null;
   }
 
-  console.log(props.phonetic);
   return (
     <div className="Phonetic">
       <ReactAudioPlayer

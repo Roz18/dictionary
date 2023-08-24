@@ -10,10 +10,18 @@ function App() {
         </header>
 
         <Form />
+        <br />
+        <br />
         <footer>
-          <p>github</p>
+          <p>
+            {" "}
+            Coded by Rusanne Visagie{" "}
+            <a href="" target="_blank" rel="">
+              Open-sourced on Github
+            </a>
+          </p>
         </footer>
-      </div>{" "}
+      </div>
     </div>
   );
 }
